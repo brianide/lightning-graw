@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd ">
+
+	<tlib-version>1.0</tlib-version>
+	<short-name>esc</short-name>
+	
+	<function>
+		<description>Escape a string for the EcmaScript/Javascript context.</description>
+		<name>ecma</name>
+		<function-class>org.apache.commons.lang3.StringEscapeUtils</function-class>
+		<function-signature>java.lang.String escapeEcmaScript(java.lang.String)</function-signature>	
+	</function>
+	<function>
+		<description>Escape a string for the XML context.</description>
+		<name>xml</name>
+		<function-class>org.apache.commons.lang3.StringEscapeUtils</function-class>
+		<function-signature>java.lang.String escapeXml11(java.lang.String)</function-signature>	
+	</function>
+</taglib>

@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS discord_creds (
+	id BIGINT IDENTITY,
+	user_id VARCHAR(64) UNIQUE NOT NULL,
+	stored_cred OTHER NOT NULL
+);

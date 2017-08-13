@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+.graw-main-container {
+	max-width: 500px;
+	margin-top: 30px;
+}
+
+.graw-config-container {
+	max-width: 650px;
+	margin-top: 30px;
+}
+
+.graw-text-fixed {
+	font-family: monospace;
+	font-size: large;
+}

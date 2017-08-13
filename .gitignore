@@ -1,0 +1,10 @@
+.settings/
+.classpath
+.project
+TODO.md
+data/
+target/
+graw.properties
+*.key
+persist.json
+
